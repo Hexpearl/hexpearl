@@ -1,10 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>HexPearl</title>
-  </head>
-  <body>
-    <h1>HexPearl</h1>
-    <p>Coming soon.</p>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+  <title>Hexpearl</title>
+
+  <link href="https://db.onlinewebfonts.com/c/c0fd80dd5eed62696e1635e255a00d63?family=Design+System+C+W01+500R"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="hero">
+    <img src="assets/hexpearl-logo.png" alt="Hexperal logo" class="logo" />
+
+    <p class="tagline">
+      Building something sharp, scalable, and modern.
+    </p>
+
+    <div class="actions">
+      <a href="#" class="btn primary">Get Started</a>
+      <a href="#" class="btn secondary">Contact</a>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Hexpearl. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+
 </html>
